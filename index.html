@@ -1,160 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exclusive Online Vizitka</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Contact Page with Dark Mode</title>
+
     <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            width: 110%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .card {
-            background: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-            text-align: center;
-            max-width: 90%; /* Limit width on mobile */
-            width: 350px; /* Fixed width for consistency */
-            transition: transform 0.4s ease, box-shadow 0.4s ease;
-        }
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
-        }
-        img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            margin-bottom: 15px;
-            border: 5px solid #fff;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
-        h1 {
-        font-size: 24px; /* Adjusted for mobile */
-        font-weight: 700;
-        color: transparent; /* Set text color to transparent */
-        background: linear-gradient(90deg, #FFD700, #000000); /* Gold to black gradient */
-        -webkit-background-clip: text; /* Clip the background to the text */
-        background-clip: text; /* Clip the background to the text */
-        margin: 10px 0;
-    }
-        .service {
-    font-size: 16px; /* Adjusted for mobile */
-    color: transparent; /* Set text color to transparent */
-    background: linear-gradient(90deg, #FFD700, #000000); /* Gold to black gradient */
-    -webkit-background-clip: text; /* Clip the background to the text */
-    background-clip: text; /* Clip the background to the text */
-    margin: 8px 0;
-    padding: 5px 10px; /* Add padding for better spacing */
-    border-radius: 10px; /* Maintain border-radius */
-    transition: background-color 0.3s ease; /* Ensure hover effect works */
-}
-        .service strong {
-            font-weight: 700;
-            color: #007bff; /* Accent color */
-        }
-        .service:hover {
-            background-color: #d1e7dd; /* Hover effect */
-        }
-        .contact-buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin-top: 20px;
-        }
-        .contact-buttons a {
-            text-decoration: none;
-            color: white;
-            padding: 10px; /* Uniform padding */
-            border-radius: 50px;
-            text-align: center; /* Center text */
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-        .contact-buttons a:hover {
-            transform: translateY(-3px);
-        }
-        .phone {
-            background-color: #28a745;
-        }
-        .instagram {
-            background-color: #E4405F;
-        }
-        .email {
-            background-color: #007bff;
-        }
-        .telegram {
-            background-color: #0088cc;
-        }
-        .website {
-            background-color: #6c757d;
-        }
-        .location {
-            background-color: #ff5722;
-        }
-        /* Media Queries for Responsiveness */
-        @media (max-width: 576px) {
-            h1 {
-                font-size: 20px; /* Smaller font size for mobile */
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="system.in/system.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="overviewInfo">
+        
+
+        <div class="productinfo">
+          <div class="grouptext">
+            <h3>AVTO KREDIT</h3>
+            <p>Oson va tez</p>
+          </div>
+          <div class="grouptext">
+            <h3>NASIYA SAVDO</h3>
+            <p>nasiyaga olish imkoniyati</p>
+          </div>
+          <div class="grouptext">
+            <h3>AVTO LIZING</h3>
+            <p>Bizning lizing xizmatlar</p>
+          </div>
+          <div class="grouptext">
+            <h3>Trade-In</h3>
+            <p>Sizning eski avtomobil</p>
+          </div>
+
+          <div class="productImage">
+            <img
+              src="img/photo_2024-08-01_19-19-51-fotor-bg-remover-20240801192322.png"
+              alt="product: ps5 controller image"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- overview info -->
+
+      <div class="productSpecifications">
+        <h1>TUO MOTORS</h1>
+        <p>
+          Biz sizga eng yaxshi shartlarda avtomobil kreditlari taklif etamiz.
+          Oson va tez rasmiylashtirish jarayoni bilan orzularingizdagi
+          avtomobilga ega bo'ling!
+        </p>
+
+        <style>
+    
+            .feature {
+                flex: 1 1 calc(25% - 20px); /* 4 ta xususiyat bir qator */
+                margin: 10px;
+                padding: 15px;
+                background-color: #3d9dea;
+                border-radius: 8px;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+                display: flex;
+                align-items: center;
             }
-            .service {
-                font-size: 14px; /* Smaller service font size */
+    
+            .feature a {
+                display: flex;
+                align-items: center; /* Ikona va matnni vertikal markazlash */
+                text-decoration: none; /* Chiziq bo'lmasligi uchun */
+                color: white; /* Matn rangi */
+                transition: background-color 0.3s, color 0.3s; /* O'zgarish animatsiyasi */
             }
-            .contact-buttons a {
-                font-size: 12px; /* Smaller contact button font size */
+    
+            .feature a:hover {
+                background-color: #0056b3; /* Hover holatida fon rangi */
+                color: #ffffff; /* Hover holatida matn rangi */
             }
-        }
-        @media (min-width: 576px) and (max-width: 768px) { /* Small Tablets */
-            h1 {
-                font-size: 22px; /* Font size for small tablets */
+    
+            .featureIcon {
+                font-size: 24px;
+                color: #007bff; /* Ikkilamchi rang */
+                margin-right: 10px; /* Ikona va matn orasidagi bo'shliq */
+                display: flex;
+                align-items: center; /* Ikonani vertikal markazlash */
+                justify-content: center; /* Ikonani gorizontal markazlash */
+                width: 40px; /* Ikona kengligini belgilash */
+                height: 40px; /* Ikona balandligini belgilash */
             }
-            .service {
-                font-size: 15px; /* Font size for small tablets */
+    
+            .featureText {
+                flex-grow: 1;
             }
-            .contact-buttons a {
-                font-size: 14px; /* Font size for small tablets */
+    
+            .featureText p {
+                margin: 0;
             }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-4"> <!-- Adjusted for better responsiveness -->
-                <div class="card">
-                    <img src="img/photo_2024-10-20_20-58-09.jpg" alt="Tuo Motors" class="img-fluid">
-                    <h1>Tuo Motors</h1>
-                    <div class="contact-buttons">
-                        <a href="tel:+998334013333" class="phone"><i class="fas fa-phone-alt"></i> Phone</a>
-                        <a href="tel:+998334083333" class="phone"><i class="fas fa-phone-alt"></i> Phone</a>
-                        <a href="https://instagram.com" class="instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-                        <a href="mailto:tuomotors@gmail.com" class="email"><i class="fas fa-envelope"></i> Mail</a>
-                        <a href="https://t.me/Tuomotors" class="telegram" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
-                        <a href="https://tuo-motors.uz" class="website" target="_blank"><i class="fas fa-globe"></i> Web-sayt</a>
-                        <a href="https://maps.app.goo.gl/tgxP5rhngXoLuPmx8?g_st=ic" class="location" target="_blank"><i class="fas fa-map-marker-alt"></i> Location</a>
-                    </div>
-                    <p class="service">Насия Савдо</p>
-                    <p class="service">Авто кредит</p>
-                    <p class="service">Авто Lizing</p>
-                    <p class="service">TRADE IN</p>
+        </style>
+    </head>
+
+        <div class="productFeatures">
+            <div class="feature" id="instagram">
+                <a href="https://instagram.com" class="featureIcon" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <div class="featureText">
+                    <p><strong>Instagram</strong></p>
+                    <p>Video va narh</p>
                 </div>
             </div>
-        </div>
-    </div>
+            <div class="feature" id="telegram">
+                <a href="https://t.me/Tuomotors" class="featureIcon" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <div class="featureText">
+                    <p><strong>Telegram</strong></p>
+                    <p>Bog'lanish uchun</p>
+                </div>
+            </div>
+            <div class="feature" id="location">
+                <a href="https://maps.app.goo.gl/tgxP5rhngXoLuPmx8?g_st=ic" class="featureIcon" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <div class="featureText">
+                    <p><strong>Location</strong></p>
+                    <p>Manzil</p>
+                </div>
+            </div>
+            <div class="feature" id="call-center">
+                <a href="tel:+998974411445" class="featureIcon">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+                <div class="featureText">
+                    <p><strong>Call-Center</strong></p>
+                    <p>24/7</p>
+                </div>
+            </div>
+            <div class="feature" id="call-center">
+                <a href="tel:+998974411445" class="featureIcon">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+                <div class="featureText">
+                    <p><strong>Call-Center</strong></p>
+                    <p>24/7</p>
+                </div>
+            </div>
+            <h1>tuo-motors.uz</h1>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+
+        </div>
+        
+        
+
+        
+      </div>
+      <!-- product specificaiton -->
+    </div>
+    <!-- wrapper-->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
